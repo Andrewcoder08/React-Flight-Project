@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+.App{
+  display: flex;
+  flex-direction: column;
+  
+  /* align-items: center; horizontally center 
+  justify-content: center; vertically center  */
+  height: 100vh; /* full height of the viewport */
+  font-family: "Mukta", sans-serif;
+}
+
+nav {
+  background: linear-gradient(225deg, #72ebfa 0%, #6e2dd3 100%);
+  margin-top: 0;
+  color: #fff;
+  font-size: 2rem;
+  border-radius: .5rem;
+  font-weight: 700;
+  letter-spacing: .02em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.navLink {
+  margin: 1rem 0;
+  color: white !important;
+
+  font-weight: 600;
+  font-size: 24px;
+  padding: 5rem;
+  transition: all 0.3s ease; /* Adding transition for smooth animation */
+  text-decoration: none; /* Removing default underline */
+  text-underline-offset: 3px;
+}
+
+
+.navLink:hover {
+ 
+  /* font-size: 26px !important; */
+  color: #0056b3 !important;
+  text-decoration: underline !important; /* Add underline on hover */
+ 
+}
+.navLink.active {
+  color: white;
+  font-weight: 800;
+  padding: 5rem;
+  text-decoration: underline;
+  letter-spacing: 0.05em;
+  
+}
+
+.header{
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow */
+  padding: 20px 0; /* Add some padding to create space around the text */
+
+  text-transform: uppercase;
+}
+
+.dialogContentText {
+  font-size: 1.2rem; /* Increase font size */
+  font-weight: bold; /* Increase font weight */
+  margin-bottom: 0.5rem; /* Reduce bottom margin */
+}
+
+.dialogActions {
+  margin-top: 0.5rem; /* Reduce top margin */
+  color: black !important;
+}
+
+.navLink {
+  color: black; /* Change action color to black */
+  text-decoration: none; /* Remove underline */
+  margin-right: 1rem; /* Adjust spacing between actions */
+}
+
+p.MuiTypography-root.MuiDialogContentText-root.MuiTypography-body1.dialogContentText.css-qfso29-MuiTypography-root-MuiDialogContentText-root {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.dialogActions a.navLink{
+  color: black !important;
+  text-decoration: none;
+  padding: 0;
+  justify-content: center;
+}
+
+.custom-button {
+  color: black; /* Change text color to black */
+  font-size: 16px; /* Increase font size */
+  margin-right: 8px; /* Reduce spacing between buttons */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.custom-button:hover {
+  background-color: #e0e0e0; /* Change background color on hover */
+}
