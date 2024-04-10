@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
 
-.App{
+.App {
   display: flex;
   flex-direction: column;
-  
-  /* align-items: center; horizontally center 
-  justify-content: center; vertically center  */
   height: 100vh; /* full height of the viewport */
   font-family: "Mukta", sans-serif;
 }
@@ -15,9 +12,9 @@ nav {
   margin-top: 0;
   color: #fff;
   font-size: 2rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   font-weight: 700;
-  letter-spacing: .02em;
+  letter-spacing: 0.02em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -38,13 +35,10 @@ nav {
   text-underline-offset: 3px;
 }
 
-
 .navLink:hover {
- 
   /* font-size: 26px !important; */
   color: #0056b3 !important;
   text-decoration: underline !important; /* Add underline on hover */
- 
 }
 .navLink.active {
   color: white;
@@ -52,10 +46,9 @@ nav {
   padding: 5rem;
   text-decoration: underline;
   letter-spacing: 0.05em;
-  
 }
 
-.header{
+.header {
   font-size: 50px;
   font-weight: bold;
   color: black;
@@ -87,7 +80,7 @@ p.MuiTypography-root.MuiDialogContentText-root.MuiTypography-body1.dialogContent
   font-weight: 600;
   text-align: center;
 }
-.dialogActions a.navLink{
+.dialogActions a.navLink {
   color: black !important;
   text-decoration: none;
   padding: 0;
